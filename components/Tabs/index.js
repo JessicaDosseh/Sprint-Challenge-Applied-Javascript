@@ -37,6 +37,7 @@ axios.get("https://lambda-times-backend.herokuapp.com/topics")
 
   //Component Function
   function tabCreator(element) {
+    // CNCC STEPS
     // Step 1-3 Create Element, Add Class, Add Content
     const tab = document.createElement("div"); 
     tab.classList.add("tab"); 

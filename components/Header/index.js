@@ -20,13 +20,15 @@ const headerContainer = document.querySelector(".header-container");
 //Component Function 
 function Header(child_1, child_2, child_3) {
 
+  // CNCC STEPS
+
   // Step 1 Create Element tags
   const header = document.createElement("div"); 
   const span_1 = document.createElement("span"); 
   const h1_tag = document.createElement("h1"); 
   const span_2 = document.createElement("span"); 
 
-  // Step 2 Place components into HTML page
+  // Step 2 Nesting Elements 
   headerContainer.appendChild(header); 
   header.appendChild(span_1); 
   header.appendChild(h1_tag); 
